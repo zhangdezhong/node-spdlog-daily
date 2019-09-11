@@ -15,7 +15,7 @@ Example
 -------
 
 ``` js
-const DailyLogger = require('./index.js').DailyLogger
+const DailyLogger = require('node-spdlog-daily').DailyLogger
 
 let logger = DailyLogger('daily_logger', 'daily.txt', 0, 0);
 logger.info('sdscscs2222')
