@@ -21,3 +21,5 @@ let logger = DailyLogger('daily_logger', 'daily.txt', 0, 0);
 logger.info('sdscscs2222')
 
 ```
+
+Start with NODE_ENV=production will logger to file, otherwise will call console.log
